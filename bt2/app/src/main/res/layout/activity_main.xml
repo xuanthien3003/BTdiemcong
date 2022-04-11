@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#DDD9D9">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit"
+        android:layout_gravity="center"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13%"
+            android:textSize="25dp"
+            android:id="@+id/radio1"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15%"
+            android:textSize="25dp"
+            android:id="@+id/radio2"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18%"
+            android:textSize="25dp"
+            android:id="@+id/radio3"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:backgroundTint="@color/white"
+        android:text="Calculate your tip"
+        android:textColor="#D60909"
+        android:id="@+id/btn"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Ket qua hien thi o day"
+        android:layout_marginTop="50dp"
+        android:id="@+id/ketqua"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:layout_weight="1"
+            android:text="1"
+            android:textSize="30dp"
+            android:backgroundTint="#A5A4A4"
+            android:id="@+id/btn1"/>
+        <Button
+            android:layout_weight="1"
+            android:text="2"
+            android:textSize="30dp"
+            android:backgroundTint="#A5A4A4"
+            android:id="@+id/btn2"/>
+        <Button
+            android:layout_weight="1"
+            android:text="3"
+            android:textSize="30dp"
+            android:backgroundTint="#A5A3A3"
+            android:id="@+id/btn3"/>
+        <Button
+            android:layout_weight="1"
+            android:text="-"
+            android:textSize="30dp"
+            android:backgroundTint="#A6A4A4"
+            android:id="@+id/tru"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:text="4"
+            android:textSize="30dp"
+            android:backgroundTint="#919090"
+            android:id="@+id/btn4"/>
+        <Button
+            android:layout_weight="1"
+            android:text="5"
+            android:textSize="30dp"
+            android:backgroundTint="#A1A0A0"
+            android:id="@+id/btn5"/>
+        <Button
+            android:layout_weight="1"
+            android:text="6"
+            android:textSize="30dp"
+            android:backgroundTint="#AEACAC"
+            android:id="@+id/btn6"/>
+        <Button
+            android:layout_weight="1"
+            android:text=","
+            android:textSize="30dp"
+            android:backgroundTint="#A3A1A1"
+            android:id="@+id/phay"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:text="7"
+            android:textSize="30dp"
+            android:backgroundTint="#A8A7A7"
+            android:id="@+id/btn7"/>
+        <Button
+            android:layout_weight="1"
+            android:text="8"
+            android:textSize="30dp"
+            android:backgroundTint="#B1B0B0"
+            android:id="@+id/btn8"/>
+        <Button
+            android:layout_weight="1"
+            android:text="9"
+            android:textSize="30dp"
+            android:backgroundTint="#979696"
+            android:id="@+id/btn9"/>
+        <Button
+            android:layout_weight="1"
+            android:text="x"
+            android:textSize="30dp"
+            android:backgroundTint="#A6A3A3"
+            android:id="@+id/xoa"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:text="."
+            android:textSize="30dp"
+            android:backgroundTint="#939191"
+            android:id="@+id/cham"/>
+        <Button
+            android:layout_weight="1"
+            android:text="0"
+            android:textSize="30dp"
+            android:backgroundTint="#918F8F"
+            android:id="@+id/btn0"/>
+        <Button
+            android:layout_weight="1"
+            android:text="_"
+            android:textSize="30dp"
+            android:backgroundTint="#AAA7A7"
+            android:id="@+id/ngang"/>
+        <Button
+            android:layout_weight="1"
+            android:text="V"
+            android:textSize="30dp"
+            android:backgroundTint="#A19F9F"
+            android:id="@+id/ok"/>
+    </TableRow>
+
+
+</LinearLayout>
